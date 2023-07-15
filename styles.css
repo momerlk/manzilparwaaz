@@ -1,0 +1,129 @@
+.avatar {
+    width : 200px;
+    height : 200px;
+    border-radius: 50%;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar
+{
+	width: 15px;
+	background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb
+{
+	background-color: rgb(29, 233, 182);
+}
+
+.hstack {
+    display : flex;
+    flex-direction: row;
+}
+
+html, body {
+    margin : 0;
+}
+
+.image.fit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+}
+.image {
+    border-radius: 4px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.img-cards {
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.img-card {
+    height: 80%;
+    margin : 10%;
+    max-width: 80%;
+}
+
+@media (min-width: 600px) {
+  .img-cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .img-cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1200px) {
+  .img-cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+#home {
+    background-image: url("background.jpg");
+}
+
+#sabza {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("sabza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100vw;
+    min-height: 75vh;
+}
+
+#roshnai {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("roshnai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100vw;
+    min-height: 75vh;
+}
+
+#khayali {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("khayali.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100vw;
+    min-height: 75vh;
+}
+
+
+
+#taleem {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("taleem.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100vw;
+    min-height: 75vh;
+}
+
+#aasra {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("aasra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100vw;
+    min-height: 75vh;
+}
+
+/* #wings {
+    background-color: white;
+} */
