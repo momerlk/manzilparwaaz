@@ -61,7 +61,7 @@ html, body {
 @media (max-width: 768px) {
     .dual-grid {
         flex-direction: column;
-        height : 105vh;
+        height : 120vh;
     }
 
     .left, .right {
